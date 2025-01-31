@@ -32,7 +32,7 @@ button {
 }
 
 .header {
-	background-color: #2d1b13;
+	background: linear-gradient(rgba(43, 21, 4, 1), rgba(69, 36, 12, 1));
 	padding: 10px 0;
 	position: sticky;
 	top: 0;
@@ -237,8 +237,8 @@ button {
 	text-decoration: none;
 }
 
-@media (max-width: 758px) {
-	.hero {
+@media (max-width: 768px) {
+	.hero .container {
 		flex-direction: column;
 		text-align: center;
 	}
@@ -254,5 +254,15 @@ button {
 	.nav-list {
 		flex-direction: column;
 		gap: 10px;
+	}
+
+	.content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rankWrap {
+		width: 100%;
+		margin-top: 20px;
 	}
 }
